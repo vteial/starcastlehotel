@@ -1,0 +1,75 @@
+<html lang="en" class="no-js" data-ng-app="app" data-ng-csp>
+<head>
+	<title>Star Castle Hotel</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Appliation to track and manage day to day expenses">
+    <meta name="author" content="xpensesTracker">
+    
+	<link href="assets/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+	<link href="css/main.css" rel="stylesheet"/>
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+<nav data-ng-controller="navigatorController">
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+		    <ul class="nav">
+		    	<li class="">
+					<a class="brand" href="#"><strong>Star Castle</strong></a>
+				</li>
+		    	<li class="divider-vertical"></li>
+		    	<li data-ng-class="{ active: $state.includes('home') }">
+		    		<a href="#/home"><i class="icon-home icon-white"></i></a>
+		    	</li>
+		    	<li class="divider-vertical"></li>
+		    </ul>
+		    <!-- 
+		    <ul class="nav pull-right">
+				<li class="divider-vertical"></li>
+				<li data-ng-class="{ active: $state.includes('settings') }">
+					<a href="#/settings">Settings</a>
+				</li>
+				<li data-ng-class="{ active: $state.includes('logout') }">
+					<a href="#/logout">Logout</a>
+				</li>
+				<li data-ng-class="{ active: $state.includes('login') }">
+					<a href="#/login">Login</a>
+				</li>
+				<li data-ng-class="{ active: $state.includes('about') }">
+					<a href="#/about">About</a>
+				</li>
+			</ul>
+			-->
+		</div>
+	</div>
+</div>
+</nav>
+
+<div class="hero-unit">
+	<p>
+		<a class="btn btn-primary btn-large"> Under Construction... </a>
+	</p>
+</div>
+<br/><br/><br/><br/>
+<br/><br/><br/><br/>
+<br/><br/><br/><br/>
+<footer class="footer">
+<div class="container">
+	<p class="muted">
+	&copy; 2013 Star Castle Hotel 
+	</p>
+</div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,560 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from www.hotelstarcastle.com/contact-us.asp by HTTrack Website Copier/3.x [XR&CO'2013], Sat, 22 Jun 2013 16:05:06 GMT -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title> -Hotel Star Castle, Malaysia ,Kualalumpur, Malaysia hotels, Malaysia hotel booking, Malaysia hotel reservation, budget hotel Malaysia, budget hotels Malaysia, best hotel Malaysia, Malaysia hotel accommodation, Malaysia accommodation, accommodation in Malaysia, Malaysia budget hotel, Malaysia budget hotels, Kualalumpur Hotel, great deals with Kualalumpur Hotel, Special Discounted rates, Instant Confirmation, Last Minute Room Availability</title>
+
+<meta name="description" content="Star Castle Hotel Malaysia  - Malaysia hotels, Malaysia hotel booking, Malaysia hotel reservation, budget hotel Malaysia, budget hotels Malaysia, best hotel Malaysia, Malaysia hotel accomodation, Malaysia accomodation, accommodation in Malaysia, Malaysia budget hotel, Malaysia budget hotels,  Hotel, great deals with Star Castle Hotel, Special Discounted rates, Instant Confirmation, Last Minute Room Availability">
+
+<meta name="keywords" content="Malaysia hotels, Malaysia hotel booking, Malaysia hotel reservation, budget hotel Malaysia, budget hotels Malaysia, best hotel Malaysia, Malaysia hotel accommodation, Malaysia accommodation, accommodation in Malaysia, Malaysia budget hotel, Malaysia budget hotels, Star Castle Hotel, great deals,  Star Castle Hotel, Special Discounted rates, Instant Confirmation, Last Minute Room Availability, Star Castle hotel, Star Castle hotel Malaysia, Star Castle hotel in  Malaysia , Malaysia Star Castle hotel, Malaysia hotel Star Castle,  Malaysia Star Castle hotel, hotel Star Castle in  Malaysia, hotel Star Castle Malaysia, hotel Malaysia Star Castle area, Star Castle hotel in Star Castle  Malaysia,  Malaysia hotels,  Kualalumpur hotels, Star Castle Hotel, Malaysia, reviews, hotel, resort, inn, reservation, deal, vacation rental, vacation rentals">
+
+
+
+
+<meta name="rating" content="general">
+<meta name="revisit-after" content="30 days">
+<meta name="robots" content="index,follow">
+<meta http-equiv="imagetoolbar" content="no">
+
+<style type="text/css">
+#leftclm2{
+	float: left;
+	width: 250px;
+	margin-top: 22px;
+	margin-left: 11px;
+}
+
+#searchNbook {
+	background-image: url(images/searchbg.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+	width: 100%;
+}
+
+.searchleft {
+	float: left;
+	width: 100px;
+}
+
+#bookingform {
+	margin-top: 15px;
+}
+
+
+#bookbtn{
+	width:78px;
+	height:27px;
+	border:none;
+	float:right;
+	margin-top:25px;
+	margin-right:0px;
+	color: #FFF;
+	text-align: center;
+	background-color: #8B1416;
+}
+
+
+
+
+.bookinputs{
+	width:150px;	
+}
+
+#ADate {
+	background-color: #F8F7F2;
+	border: 1px solid #d7cec2;
+	width: 122px;
+	float:left;
+}
+
+#sNbhead {
+	color: #FFF;
+	display: block;
+	height: 22px;
+	width: 100%;
+	text-align: center;
+	padding-top: 3px;
+}
+
+#contentarea {
+	width: 460px;
+	float: left;
+	margin-top: 22px;
+	margin-left: 12px;
+}
+
+.stay_days{
+	width:150px;
+}
+</style>
+<link href="css/new.css" rel="stylesheet" type="text/css">
+
+<link href="css/date-picker.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="js/calendar.js"></script>
+<script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryValidationSelect.js" type="text/javascript"></script>
+ 
+<script type="text/javascript">
+ 
+	function checkForm(myForm){
+	if(myForm.ADate.value==""){
+	alert("Please choose check-in date");
+	myForm.ADate.focus();
+	return false;
+	}
+	
+	return true;
+	}
+	
+</script>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+
+<script type="text/javascript">
+
+	function theRotator() {
+		$('div.rotator ul li').css({opacity: 0.0});
+		$('div.rotator ul li:first').css({opacity: 1.0});
+		setInterval('rotate()',8000);
+		$('div.rotator2 ul li').css({opacity: 0.0});
+		$('div.rotator2 ul li:first').css({opacity: 1.0});
+		setInterval('rotate2()',4000);
+	}
+	
+	function rotate() {	
+		var current = ($('div.rotator ul li.show')?  $('div.rotator ul li.show') : $('div.rotator ul li:first'));
+	    if ( current.length == 0 ) current = $('div.rotator ul li:first');
+		var next = ((current.next().length) ? ((current.next().hasClass('show')) ? $('div.rotator ul li:first') :current.next()) : $('div.rotator ul li:first'));
+
+		next.css({opacity: 0.0})
+		.addClass('show')
+		.animate({opacity: 1.0}, 1000);
+
+		current.animate({opacity: 0.0}, 1000)
+		.removeClass('show');
+		
+	};
+	
+
+	function rotate2() {	
+		var current = ($('div.rotator2 ul li.show')?  $('div.rotator2 ul li.show') : $('div.rotator2 ul li:first'));
+	    if ( current.length == 0 ) current = $('div.rotator2 ul li:first');
+		var next = ((current.next().length) ? ((current.next().hasClass('show')) ? $('div.rotator2 ul li:first') :current.next()) : $('div.rotator2 ul li:first'));
+
+		next.css({opacity: 0.0})
+		.addClass('show')
+		.animate({opacity: 1.0}, 1000);
+
+		current.animate({opacity: 0.0}, 1000)
+		.removeClass('show');
+		
+	};
+	
+
+	$(document).ready(function() {		
+		theRotator();
+		$('div.rotator').fadeIn(1000);
+	    $('div.rotator ul li').fadeIn(1000); // tweek for IE
+		$('div.rotator2').fadeIn(1000);
+	    $('div.rotator2 ul li').fadeIn(1000); // tweek for IE
+	});
+	
+</script>
+
+
+
+<style type="text/css">
+
+div.rotator {
+	position:relative;
+	width:460px;
+	height:220px;
+	margin: 0px;
+	display: none;
+	overflow:hidden;
+}
+
+div.rotator ul{
+	list-style: none;
+	margin: 0px;
+	padding:0px;
+}
+
+	div.rotator ul li {
+	float:left;
+	position:absolute;
+	list-style: none;
+	margin: 0px;
+	left: -29px;
+	top:-9px;
+}
+
+	div.rotator ul li img {
+	border:0px;
+	padding: 0px;
+	margin: 0px;
+}
+    div.rotator ul li.show {
+	z-index:10;
+}
+
+div.rotator2 {
+	position:relative;
+	width:249px;
+	height:286px;
+	margin: 0px;
+	display: none;
+	overflow:hidden;
+}
+
+div.rotator2 ul{
+	list-style: none;
+	margin: 0px;
+	padding:0px;
+}
+
+div.rotator2 ul li {
+	background:#FFF;
+	float:left;
+	position:absolute;
+	list-style: none;
+	margin: 0px;
+	left: -28px;
+	top:-8px;
+}
+
+	div.rotator2 ul li img {
+	border:0px;
+	padding: 0px;
+	margin: 0px;
+}
+    div.rotator2 ul li.show {
+	z-index:10;
+}
+
+</style>
+
+
+<link type="text/css" rel="stylesheet" charset="UTF-8" href="css/translateelement.css">
+<script type="text/javascript" charset="UTF-8" src="js/main.js"></script>
+<link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css" />
+<link href="SpryAssets/SpryValidationSelect.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body style="position: relative; min-height: 100%; top: 0px; ">
+
+
+<div id="hmain"> 
+  <div id="Hcontainer"><div id="logo"><a href="#" style="display:block;width:236px;height:101px;"></a></div>
+  
+  <div id="clock">  
+        
+    <div id="google_translate_element"><script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    includedLanguages: 'ar,zh-CN,zh-TW,nl,en,tl,fr,de,hi,id,it,ja,ko,ru,es,th',
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+}
+</script><script src="../translate.google.com/translate_a/elementa0d8.html?cb=googleTranslateElementInit"></script>
+</div>
+	
+   
+    
+    
+    </div>
+</div>
+
+</div>
+
+
+<div id="bodymain">
+        
+<div id="leftcolm">
+   
+   <div id="colum3">
+   
+      <ul>
+        <li><a href="index-2.html">About the Hotel</a></li>
+        <li><a href="location.html">Location</a></li>
+        <li><a href="accomodation.html">Accomodation</a></li>
+        <li><a href="online-reserve.html">Online Reservations</a></li>
+        <li><a href="facilities.html">Facilities</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+      </ul>
+
+<br>
+
+
+</div> 
+    
+    <div id="contentarea" >
+
+
+         <div class="rotator" style="display: block; ">
+		  <ul>
+		    <li class="show" style="opacity: 1; "><span class="show" style="opacity: 1; "><a href="#"><img src="images/11.jpg" width="460" height="220" /></a></span></li>
+		    <li style="opacity: 0; " class=""><a href="#"><img src="images/12.jpg" width="460" height="220"></a></li>
+			<li style="opacity: 0; " class=""><a href="#"><img src="images/13.jpg" width="460" height="220"></a></li>
+		  </ul>
+		</div>
+   
+        <h1>Contact Us </h1>
+                  
+            <p>Hotel Star Castle</p>
+			<p>Lot Number 39</p>
+			<p>Jalan Tengkat Tong Shin</p>
+			<p>50200,KUALALUMPUR</p>
+			<p>MALAYSIA.</p>
+			<p>Phone : <strong> +603-2141 7862</strong></p>
+			<p>Fax&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<strong> +603-2141 7864</strong> </p>
+            <div style="height:500px">   
+            <form method="post" action="http://www.hotelstarcastle.com/thanku.asp" >
+            <table width="100%">
+<tr>
+<td colspan="2" align="center"><font color="#003399" size="+1">Send Us Your FeedBack or Enquiry</font>
+<br /><br /></td>
+</tr>
+
+
+
+
+<tr>
+<td><font color="#003366">Name</font><font color="#FF0000" size="+2">*</font></td>
+<td><span id="sprytextfield1">
+  <input name="name" type="text" size="40" /><BR />
+  <span class="textfieldRequiredMsg">Enter the Name</span></span></td>
+</tr>
+
+<tr>
+<td><font color="#003366">Telephone No.</font><font color="#FF0000" size="+2">*</font></td>
+<td><span id="sprytextfield2">
+<input type="text" name="telno" />
+<BR />
+<span class="textfieldRequiredMsg">Enter the Telephone number</span><span class="textfieldInvalidFormatMsg">Invalid format.</span></span></td>
+</tr>
+
+
+<tr>
+<td><font color="#003366">Mobile No.</font><font color="#FF0000" size="+2">*</font></td>
+<td><span id="sprytextfield3">
+  <input type="text" name="mobno" /><BR />
+  <span class="textfieldRequiredMsg">Enter the Mobile Number</span></span></td>
+</tr>
+
+<tr>
+<td><font color="#003366">Fax No.</font></td>
+<td><input type="text" name="faxno"></td>
+</tr>
+
+
+<tr>
+<td><font color="#003366">E-Mail</font><font color="#FF0000" size="+2">*</font></td>
+<td><span id="sprytextfield4">
+<input type="text" name="email" />
+<span class="textfieldRequiredMsg">A value is required.</span><span class="textfieldInvalidFormatMsg">Invalid format.</span></span></td>
+</tr>
+
+<tr>
+<td><font color="#003366">Address For Communication</font></td>
+<td><textarea cols="40" rows="6" name="address"></textarea></td>
+</tr>
+
+<tr>
+<td><font color="#003366">Describe You</font><font color="#FF0000" size="+2">*</font></td>
+<td><span id="spryselect1">
+  <select name="whois">
+    <option value="Select One" selected="selected">Select One</option>
+    <option value="Foreigner/Tourist">Foreigner/Tourist</option>
+    <option value="Parent For a Current Student">Business Man</option>
+    <option value="Malaysian Employee">Malaysian Employee</option>
+    <option value="Friend">Friend</option>
+    <option value="Others">Others</option>
+  </select>
+  <span class="selectRequiredMsg">Please select an item.</span></span></td>
+</tr>
+
+<tr>
+<td><font color="#003366">Feedback / Queries</font></td>
+<td><textarea cols="40" rows="8" name="matter"></textarea></td>
+</tr>
+
+
+<tr><td colspan="2" align="center"><input type="submit" value="Submit" name="Submit1"></td></tr>
+<tr>
+  <td colspan="2" align="center">&nbsp;</td>
+</tr>
+<tr>
+  <td colspan="2" align="center">&nbsp;</td>
+</tr>
+<tr>
+  <td colspan="2" align="center">&nbsp;</td>
+</tr>
+</table>
+</form>
+
+</div>
+    </div>
+    
+    <div id="leftclm2">
+   
+   <div id="searchNbook"><span id="sNbhead">Search &amp; Book</span>
+   
+
+   <div class="clear" id="bookingform">
+   
+  <form action="http://www.hotelstarcastle.com/search/" onsubmit="return checkForm(this)">
+
+     <div class="searchleft">Check-in date
+     </div>
+      <input type="text" name="ADate" id="ADate">
+      <img onclick="displayDatePicker('ADate');" style="float:left; margin-left:5px;cursor:pointer;" src="images/calender.png" width="21" height="21" alt="calendericon">
+      
+         <br>
+<br>
+
+
+       <div class="searchleft">Length of Stay</div>
+
+                
+  <select name="stay_days" class="stay_days" id="stay_days">
+  <option value="1">1 Night</option>
+  <option value="2">2 Nights</option>
+  <option value="3">3 Nights</option>
+  <option value="4">4 Nights</option>
+  <option value="5">5 Nights</option>
+  <option value="6">6 Nights</option>
+  <option value="7">7 Nights</option>
+  <option value="8">8 Nights</option>
+  <option value="9">9 Nights</option>
+  <option value="10">10 Nights</option>
+  <option value="11">11 Nights</option>
+  <option value="12">12 Nights</option>
+  <option value="13">13 Nights</option>
+  <option value="14">14 Nights</option>
+  <option value="15">15 Nights</option>
+  <option value="16">16 Nights</option>
+  <option value="17">17 Nights</option>
+  <option value="18">18 Nights</option>
+  <option value="19">19 Nights</option>
+  <option value="20">20 Nights</option>
+  <option value="21">21 Nights</option>
+  <option value="22">22 Nights</option>
+  <option value="23">23 Nights</option>
+  <option value="24">24 Nights</option>
+  <option value="25">25 Nights</option>
+  <option value="26">26 Nights</option>
+  <option value="27">27 Nights</option>
+  <option value="28">28 Nights</option>
+  <option value="29">29 Nights</option>
+  <option value="30">30 Nights</option>
+
+  </select>
+   <br>
+<br>
+
+   
+   <div class="searchleft">Room Type
+    </div>
+
+
+   <select name="room_type" class="bookinputs" id="room_type">
+				
+				<option value="1">Standard Double Room</option>
+				
+				<option value="2">Superior Twin Room</option>
+						
+				
+				<option value="3">Family Room</option>
+				
+   </select>
+   
+   
+   
+   <input name="Booknow" type="submit" id="bookbtn" value="Book Now">
+   </form><br class="clear">
+
+   </div>
+   
+   
+<br>
+<div class="rotator2" style="display: block; ">
+<ul>
+<li class="" style="opacity: 0; "><a href="index.html#"><img src="images/1.jpg" width="250" height="287"></a></li>
+<li style="opacity: 1; " class="show"><a href="index.html#"><img src="images/2.jpg" width="250" height="287"></a></li>
+<li style="opacity: 0; " class=""><a href="index.html#"><img src="images/3.jpg" width="250" height="287"></a></li>
+<li style="opacity: 0; " class=""><a href="index.html#"><img src="images/4.jpg" width="250" height="287"></a></li>
+<li style="opacity: 0; " class=""><a href="index.html#"><img src="images/5.jpg" width="250" height="287"></a></li>
+<li style="opacity: 0; " class=""><a href="index.html#"><img src="images/6.jpg" width="250" height="287"></a></li>
+<li style="opacity: 0; " class=""><a href="index.html#"><img src="images/7.jpg" width="250" height="287"></a></li>
+<li style="opacity: 0; " class=""><a href="index.html#"><img src="images/8.jpg" width="250" height="287"></a></li>
+<li style="opacity: 0; " class=""><a href="index.html#"><img src="images/9.jpg" width="250" height="287"></a></li>
+</ul>
+</div>
+
+  
+<br>
+  
+   </div>
+    
+    
+ </div>
+
+ 
+</div>
+
+ <div class="clear" id="footerMain"><div id="Fcontainer">
+ <div id="footercontent1">
+ <a href="index-2.html">About Hotel</a><br>
+ <a href="about-malaysia.html">About Malaysia</a><br>
+ <a href="accommodation.html">Accommodation</a><br>
+</div>
+
+<div id="footercontent2">
+	
+  <a href="photo-gallery.html">Photo Gallery </a><br>
+  <a href="travel-desk.html">Travel Desk</a> <br>
+  <a href="faq.html">FAQ</a></div>
+
+<div id="footercontent3">
+<a href="privacy-policy.html">Privacy Policy
+</a><br>
+<a href="disclaimer.html">Disclaimer</a> <br>
+<a href="contact-us-2.html">Contact Us</a> <br>
+</div>
+
+<div id="footercontent4"><a href="facilities.html">Facilities</a><br>
+  <a href="hotel-movie.html">Hotel Movie</a> <br>
+  <a href="location-map.html">Location Map</a></div>
+
+
+<div id="footercontent5"><a href="online-reserve.html">Online Reservations</a> <br>
+ 
+  <a href="tariff.html">Tariff </a><br>
+  <a href="site-map.html">Site Map</a></div>
+  
+  <div id="copyright">Copyright © 2011 Hotel STAR Castle,Kualalumpur , Malaysia</div>
+  <div id="socialmedia">Follow us on :<img style="margin-left:16px;" src="images/facebook.png" width="27" height="26" alt="face book" title="facebook"><img style="margin-left:16px;" src="images/youtube.png" width="26" height="26" alt="you tube" title="youtube"></div>
+  </div>
+    
+  </div> 
+</div>
+
+<script type="text/javascript">
+<!--
+var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1");
+var sprytextfield2 = new Spry.Widget.ValidationTextField("sprytextfield2", "phone_number", {format:"phone_custom"});
+var sprytextfield3 = new Spry.Widget.ValidationTextField("sprytextfield3");
+var spryselect1 = new Spry.Widget.ValidationSelect("spryselect1");
+var sprytextfield4 = new Spry.Widget.ValidationTextField("sprytextfield4", "email");
+//-->
+</script>
+</body>
+<!-- Mirrored from www.hotelstarcastle.com/contact-us.asp by HTTrack Website Copier/3.x [XR&CO'2013], Sat, 22 Jun 2013 16:05:08 GMT -->
+</html>

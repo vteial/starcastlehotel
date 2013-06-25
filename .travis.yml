@@ -1,0 +1,6 @@
+language: groovy
+script: 'gradle check'
+notifications:
+  email:
+    recipients:
+      - vteial@gmail.com
